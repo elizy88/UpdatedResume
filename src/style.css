@@ -1,0 +1,114 @@
+.name{
+    text-align:'center';
+    color: 'black'; 
+    font-family: Arial;
+    line-height: 30px
+}
+.height{
+    line-height: 20px;
+    padding-left: 80px;
+    margin: auto;
+    text-align: left;
+    border: 1px solid white;
+    padding-left: 30px; 
+    line-height: "none"
+}
+
+.primary{
+        color: blue;
+         text-align:center;
+        font-family: Arial;
+        line-height:4px
+}
+
+    .center {
+        margin: auto;
+        text-align: left;
+        text-decoration: underline;
+        border: 1px solid white;
+        padding-left: 80px
+      }
+      .summary{
+        margin: auto;
+        font-size: medium;
+        text-align: left;
+        border: 1px solid white;
+        padding-left: 80px
+      }
+      .skill{
+        margin: auto;
+        font-size: medium;
+        text-align: left;
+        border: 1px solid white;
+        padding-left: 30px; 
+        line-height: "none"
+      }
+      .jobs{
+        margin: auto;
+        font-size: medium;
+        text-align: left;
+        border: 1px solid white;
+        padding-left: 30px; 
+        line-height: "none"
+      }
+      .exp{
+        margin: auto;
+        font-size: medium;
+        text-align: left;
+        font-size: medium;
+        border: 1px solid white;
+        padding-left: 80px; 
+        line-height: "20pt"
+      
+      }
+      .dev{
+            margin: auto;
+            text-align: left;
+            border: 1px solid white;
+            text-decoration: underline;
+            font-size: medium;
+            padding-left: 80px; 
+            line-height: "20pt"
+          
+      }
+      .prop{
+        margin: auto;
+        font-size: medium;
+        text-align: left;
+        border: 1px solid white;
+        padding-left: 110px; 
+        line-height: "20pt"
+      
+      }
+      .prop1{
+        margin: auto;
+        font-size: medium;
+        text-align: left;
+        border: 1px solid white;
+        padding-left: 40px; 
+        line-height: "none"
+      
+      }
+      height1{
+        line-height: 8px;
+        font-size: medium;
+        padding-left: 80px;
+        margin: auto;
+        text-align: left;
+        border: 1px solid white;
+        padding-left: 10px; 
+        line-height: "none"
+      }
+      .space{
+        line-height: 40px;
+        padding-left: 80px;
+        margin: auto;
+        text-align: left;
+        border: 1px solid white;
+        padding-left: 30px; 
+        line-height: "none"
+      }
+      
+      
+
+

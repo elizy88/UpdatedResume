@@ -1,22 +1,19 @@
 import React from 'react';
 
+function ProfessionalDevelopment(props){
+    return (
+      <div>
+        <h3 className="dev"> Professional Development </h3>
+        <ul className="prop">
+          <li>
+            {props.certification}
+          
+          </li>
+        </ul>
 
-class ProfessionalDevelopment extends React.Component{
-   render(){
-    return(
-    <div className = "Professionalexp"> 
-    <h3 style={{paddingLeft: '45px',textDecoration: "underline",lineHeight: "15pt",border: '1px solid white',paddingRight: '35px'}}>Professional Development</h3> 
 
-    
-    <ul style={{paddingLeft: '85px',border: '1px solid white',paddingRight: '35px'}}>
-  <li>
-                        {this.props.certification}
-                        </li>
-                        </ul>
-                   
-                
-    </div>
+      </div>
     );
+  
 }
-}
-export default ProfessionalDevelopment;
+export default ProfessionalDevelopment;                                                                                                                                                      
