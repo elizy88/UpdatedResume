@@ -1,4 +1,4 @@
-import React from 'react'; // Optional: you can use es6 object destructuring: import React, { Component } from 'react';
+import React, { Component } from 'react'; // Optional: you can use es6 object destructuring: import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import Education from './Education';
 import ProfessionalDevelopment from './ProfessionalDevelopment';
@@ -8,7 +8,7 @@ import Logo from './csmlogo.png';
 import MySkill from './MySkill';
 import ExperienceData from './ExperienceData'; // Great work here. Now your data lives in one place, so you can edit content without changing any code.
 import './style.css';
-class App extends React.Component { // Using object destructuring above allows you todeclare class App extends Component { -> making your code a little more readable.
+class App extends Component { // Using object destructuring above allows you todeclare class App extends Component { -> making your code a little more readable.
     constructor(props) {
         super(props);
         this.state = {
@@ -24,7 +24,7 @@ class App extends React.Component { // Using object destructuring above allows y
             <div>
                 <h4 className="height1">{rowdata.Job}</h4>
                 {(typeof (rowdata.list) == 'object') 
-                ? <div>
+                && <div>
                     {rowdata.list.map((subRowData, exp1) =>
                         <div>
                             <ul className="skill">
@@ -35,7 +35,7 @@ class App extends React.Component { // Using object destructuring above allows y
                         </div>)
                     }
                     </div> 
-                : null  // Nice use of a ternary operator! Since you're returning null here, you could achieve the same thing with a short circuit operator: using && instead of ?, with no :
+                 // Nice use of a ternary operator! Since you're returning null here, you could achieve the same thing with a short circuit operator: using && instead of ?, with no :
                 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_Operators#Short-circuit_evaluation
                 
                 }

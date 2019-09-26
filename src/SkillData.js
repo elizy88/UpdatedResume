@@ -2,7 +2,7 @@
 const SkillData = [ // Great work here too. I think you've gotten the hand of Array.map in jsx
   {
     id: 1,
-    skill1: "Programming Languages:SQL ,JAVA ,Vb.Net, HTML",
+    skill1: "Programming Languages:SQL, JAVA, Vb.Net, HTML", // Just some grammar fixes here
   },
   {
     id: 2,
