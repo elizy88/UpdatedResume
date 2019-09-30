@@ -1,18 +1,17 @@
 import React from 'react';
 
 
-class Education extends React.Component {
-  render() {
+function Education(props){
     return (
       <div>
         <h3 className="dev"> Education </h3>
         <ul className="prop">
           <li>
-            {this.props.EIT}
+            Bachelor in Computer Science, Eritrean Institute of Technology,Asmara, Eritrea, 2011"
           </li>
         </ul>
       </div>
     );
   }
-}
+
 export default Education;
