@@ -1,4 +1,8 @@
 import React from "react"
+import ReactDOM from "react-dom";
+import App from "./App";
+ReactDOM.render(<App />,document.querySelector("#root"))
+        
 
-import App from "./App"
-// This function is never used. Don't worry about this now, but all you actually need to do is import react and App here.
+
+
