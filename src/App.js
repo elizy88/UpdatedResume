@@ -1,4 +1,5 @@
-import React, { Component } from "react";
+         
+import React, { Component } from "react"; // Optional: you can use es6 object destructuring: import React, { Component } from 'react';
 import ReactDOM from "react-dom";
 import Education from "./Education";
 import ProfessionalDevelopment from "./ProfessionalDevelopment";
@@ -15,15 +16,13 @@ class App extends Component {
     };
   }
   render() {
-    const skillComponent = SkillData.map(skill => (
+    const skillComponent = SkillData.map(skill => (   // Great job! Creating a component for each skill
       <MySkill key={skill.id} skill1={skill.skill1} />
     ));
-
-   const experienceComponent = this.state.ExperienceData.map(
+     const experienceComponent = this.state.ExperienceData.map(
       (rowdata) => (
         <div>
-        
-          <h4 className="height1">{rowdata.Job}</h4>
+        <h4 className="height1">{rowdata.Job}</h4>
        
           <ul>
             {rowdata.list.map((subRowData) => {
@@ -38,8 +37,7 @@ class App extends Component {
         
         </div>
       )
-    );
-         
+    ); 
         return (
       <div
         style={{
@@ -92,4 +90,7 @@ class App extends Component {
 }
 ReactDOM.render(<App />, document.getElementById("root"));
 
-export default App;
+export default <App />
+
+// Fantastic, you're coming along nicely. As always, I recommend keeping your code formatted (ctrl + shift + i (For me on my PC, your keyboard shortcut may be different.))
+
